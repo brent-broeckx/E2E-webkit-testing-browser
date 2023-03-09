@@ -6,3 +6,5 @@ const { chromium, firefox, webkit } = require('@playwright/test');
   await page.goto('https://www.google.com/');
   // other actions...
 })();
+
+// npx run .\browsertesting.ts
